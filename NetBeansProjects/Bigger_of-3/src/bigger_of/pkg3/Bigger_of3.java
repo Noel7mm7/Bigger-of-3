@@ -49,9 +49,12 @@ public class Bigger_of3 {
             if(variable_2 > variable_1){
                     
             System.out.println("The biggest number is:" + big);        
-            
+            //primero ajustar los ifs de == a >>
+//segundo
+//finalmente eliminar los segundos ifs
         }    
     }
 } 
 
 }
+
