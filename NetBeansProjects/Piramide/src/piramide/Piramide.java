@@ -11,12 +11,12 @@ package piramide;
 public class Piramide {
 
     public static void main(String[] args) {
-       int i = 0, j, k, filas = 6;
-            for (k = 1; k <= 3; k++) { 
-            for (i = 1; i <= 3-k; i++) {
+       int i = 0, j, z, filas = 6;  //We initialize the variable i to 0
+            for (z = 1; z <= filas; z++) {  //We add a for for the variable z
+            for (i = 1; i <= filas-z; i++) { //We have to change the if and else for the for
                 System.out.print( " ");
             }
-            for (j = 1; j <= 2 * k - 1; j++) {
+            for (j = 1; j <= 2 * z - 1; j++) { //We have to change the for structure for the variable j
                 System.out.print( "*");
             }
             System.out.println( "");
